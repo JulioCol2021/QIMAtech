@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product Form</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+    <h1 th:text="${#strings.isEmpty(product.id) ? 'Add New Product' : 'Edit Product'}"></h1>
+    <form th:action="@{/products}" th:object="${product}" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" th:field="*{name}" required />
+        <br/>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" th:field="*{description}"></textarea>
+        <br/>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" th:field="*{price}" required />
+        <br/>
+        
+        <label for="categoryPath">Category Path:</label>
+        <input type="text" id="categoryPath" name="categoryPath" th:field="*{categoryPath}" />
+        <br/>
+        
+        <label for="available">Available:</label>
+        <input type="checkbox" id="available" name="available" th:field="*{available}" />
+        <br/>
+        
+        <button type="submit">Save</button>
+        <a th:href="@{/products}">Cancel</a>
+    </form>
+</body>
+</html>

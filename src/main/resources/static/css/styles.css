@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background for the body */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333; /* Dark text color */
+    text-align: center;
+    margin-top: 20px;
+    background-color: #007bff; /* Blue header background */
+    padding: 10px;
+    color: #fff; /* White text for header */
+    border-radius: 8px; /* Rounded corners for the header */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff9e6; /* Pale yellow background for table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for table */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Light gray border for table and cells */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e6e6e6; /* Light gray background for table headers */
+    color: #333; /* Dark text color for table headers */
+}
+
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+.add-product {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background for "Add New Product" button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 16px; /* Rounded button style */
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.add-product:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.action-button {
+    background-color: #007bff; /* Blue color for action buttons (Edit/Delete) */
+    color: #fff; /* White text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 12px; /* Rounded style for action buttons */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border for form */
+    background-color: #fff; /* White background for form */
+    border-radius: 8px; /* Rounded corners for form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green color for submit buttons */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 16px; /* Rounded style for buttons */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.cancel {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #6c757d; /* Gray color for cancel button */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 16px; /* Rounded style for cancel button */
+}
+
+.cancel:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}

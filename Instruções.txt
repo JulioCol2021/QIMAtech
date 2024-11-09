@@ -1,0 +1,13 @@
+Foi usado o MariaDB, para base de dados SQL:
+Usuário: root
+Senha: 123
+Endereço e porta: jdbc:mysql://127.0.0.1:3306/schema_db
+
+O acesso a tela de login é:
+Usuário: admin
+Senha: password
+Vide arquivo(application.properties)
+
+Endereço da aplicação: http://localhost:8080/login
+Servidor  = Maven
+
